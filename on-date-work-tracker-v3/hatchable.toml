@@ -1,0 +1,11 @@
+[auth]
+enabled = true
+providers = ["email"]
+
+[db.tables.work_entries]
+read = "own"
+write = "own"
+
+[db.tables.user_profiles]
+read = "own"
+write = "own"
